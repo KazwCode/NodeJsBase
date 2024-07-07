@@ -18,6 +18,7 @@ app.use('/auth', authRoutes);
 app.use('/products', productRoutes);
 app.use('/types', typeRoutes);
 app.use('/invoices', invoiceRoutes);
+app.use('/users', userRoutes);
 
 const PORT = process.env.PORT || 3000;
 
